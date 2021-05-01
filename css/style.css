@@ -1,0 +1,224 @@
+/*regras de font-size------------------------------------------------*/
+/*@media (max-width: 1080px){
+  html{
+    font-size: 93.75%;// equivale a 15px - isso diminue o tamnho da fonte quando a tela for menor que 1080px
+  }
+}
+@media (max-width: 720px){
+  html{
+    font-size: 87.5%;// equivale a 14px - isso diminue o tamnho da fonte quando a tela for menor que 720px
+  }
+}
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'Sarabun', sans-serif;
+font-family: 'Varela Round', sans-serif;
+
+rosa - #eb2f5b
+laranja -#ffcc00
+
+*/
+
+/*Curso HTML5, CSS e JS*/
+@charset "UTF-8";
+html{font-size: 100%;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{font-family: 'Quicksand', sans-serif;  color: #333;}
+button{cursor: pointer;}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Sarabun', sans-serif;
+}
+h1, h4{text-transform: uppercase;}
+
+a{
+  text-decoration: none;
+}
+
+.clear-fix::after{content:' '; display: block; clear: both;}
+
+/***************************************************************************/
+.display{display: none;}
+
+.headerMain{text-align: center; padding-top: 1rem;}
+.headerMain svg{width: 100%; max-width: 180px;}
+
+.imgLogo{display:flex; margin-bottom: 1rem; justify-content: center;}
+
+.navBar{background-color: #111414;}
+.navBar ul li:last-child{border-bottom: 0;}
+.navBar a.iconColor{color: #ffcc00;}
+.navBar ul li a{display: block; color: #fff; padding: 1rem 0; 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.424);}
+
+.navBar ul li:nth-child(5), li:nth-child(6){font-size:1.5rem;}
+
+.navBar ul li a:hover{background-color: #eb2f5b; color: #ffffff;}
+
+/***************************************************************************/
+
+.webSlider{display: none;}
+.infoSlider{padding: 4rem 2rem; background-color: #ffcc00;}
+.infoSlider h4{color: #eb2f5b; font-weight: 200; letter-spacing: 0.2rem; font-size: 0.8rem;}
+.infoSlider h1{color: rgb(17, 17, 17); font-weight: 900; font-size: 2.3rem; letter-spacing: -0.2rem; margin: 1.5rem 0; line-height: 3rem; word-spacing: .5rem;}
+.infoSlider span{text-decoration:underline; text-decoration-color: #eb2f5b; text-decoration-style:double;}
+.infoSlider p{font-size: 1.3rem; font-weight: 100; letter-spacing: 0.2rem;}
+
+/***************************************************************************/
+
+.services{background-color: #111414; color: #fff; padding: 3rem 1rem;}
+.servH1{margin: 0; font-size: 2.3rem; font-weight: 900; margin-bottom: 3rem;}
+.servicesItem{margin-bottom: 1.5rem;}
+.servicesItem h1{font-family: 'Roboto'; font-size: 5rem; letter-spacing: -0.2rem; margin-bottom: .8rem; color: #eb2f5b;}
+.servicesItem h2{text-transform: uppercase; letter-spacing: -0.1rem;}
+.servicesItem p{margin: 1.5rem 0; color: rgb(182, 182, 182); font-weight: 300; padding: 0 1rem 0 0; box-sizing: border-box; letter-spacing: .1rem; line-height: 1.5rem;}
+.servicesItem a{color: #eb2f5b; font-weight: 800;}
+.servicesItem a:hover{color: #ffcc00;}
+
+/***************************************************************************/
+
+.firstImage{background-color: rgb(248, 248, 248); padding: 3rem 0;}
+.firstImageItem{padding: 0 2rem;}
+.firstImageItem h4{color: #eb2f5b; font-weight: 200; letter-spacing: 0.2rem; font-size: 0.8rem;}
+.firstImageItem h1{color: rgb(17, 17, 17); font-weight: 900; font-size: 2.3rem; letter-spacing: -0.2rem; margin: 1.5rem 0; line-height: 3rem; word-spacing: .5rem;}
+.firstImageItem span{text-decoration:underline; text-decoration-color: #eb2f5b; text-decoration-style:double;}
+.ja{font-size: 1.3rem; font-weight: 600; letter-spacing: 0.2rem; color: rgb(54, 54, 54);}
+.firstImageItem p{margin: 1.5rem 0; color: rgb(110, 110, 110); font-weight: 500; padding: 0 1rem 0 0; box-sizing: border-box; letter-spacing: .1rem; line-height: 1.5rem;}
+
+.imgHola{width: 100%; padding: 0 1rem;margin-top: 3rem;}
+.imgHola img{width: 100%;}
+
+/***************************************************************************/
+
+.portfolio img{width: 100%;display: block;}
+.portItem1{position: relative;}
+.portItem1 a{position: absolute; z-index: 2; top: 50%; left: 50%; color: #ffffff; transform: translate(-50%, -50%); font-size: 2rem; text-transform: uppercase; letter-spacing: -0.1rem; font-weight: 900;}
+.portItem1 a:hover{color: #ffcc00;}
+.portItem2, .portItem3{padding: 4rem 1rem; text-align: center; font-size: 1.1rem; letter-spacing: 0.2rem; line-height: 1.5rem;}
+.portItem2{background-color: #ffcc00; color: #333;}
+.portItem3{background-color:#111414; color: rgb(204, 204, 204);}
+
+.item1, .item2{display: inline-block; padding: 1rem; background-color: #eb2f5b; border-radius: 4rem; color: #fff;}
+.item1{margin-top: 2rem;}
+.item2{margin-bottom: 2rem;}
+.item1, .item2 i{font-size: 1.8rem;}
+
+/***************************************************************************/
+.place{margin-bottom: 3rem;}
+.placeItem{padding: 0 1rem;}
+.placeDiv h1{color: rgb(17, 17, 17); font-weight: 900; font-size: 2.3rem; letter-spacing: -0.2rem; margin: 1.5rem 0; line-height: 3rem; word-spacing: .5rem;}
+.placeDiv span{text-decoration:underline; text-decoration-color: #eb2f5b; text-decoration-style:double;}
+.placeDiv p{margin: 1.5rem 0; color: rgb(110, 110, 110); font-weight: 500; padding: 0 1rem 0 0; box-sizing: border-box; letter-spacing: .1rem; line-height: 1.5rem;}
+.placeDiv h4{color: #eb2f5b; font-weight: 200; letter-spacing: 0.2rem; font-size: 0.8rem; margin-top: 3rem;}
+
+.placeImg{width: 100%; margin-top: 3rem;}
+.placeImg img{width: 100%;}
+
+/***************************************************************************/
+
+.dados{background-color: rgb(247, 247, 247); height: max-content; padding-bottom: 3rem;}
+/*.dadosItem{margin-bottom: 2rem;}*/
+.dadosType{display: flex; padding: 2rem 1rem; justify-content: center; align-items: center; flex-direction: column;}
+
+.dadosType h1{color: rgb(17, 17, 17); font-weight: 900; font-size: 3rem; letter-spacing: -0.2rem; margin: 1rem 0; line-height: 3rem; word-spacing: .5rem;}
+.dadosType h4{color: #eb2f5b; font-weight: 200; letter-spacing: 0.2rem; font-size: 0.8rem;}
+
+/***************************************************************************/
+
+a.blue{color: aquamarine;}
+a.blue:hover{color: #ffcc00;}
+
+.orcamento div{display: flex; justify-content: center; text-align: center; padding: 5rem 1rem; background-color: #eb2f5b; color: #fff;} 
+.orcamento div h1{font-weight: 900; font-size: 3.2rem; letter-spacing: -0.2rem; margin: 1rem 0; line-height: 4rem; word-spacing: .5rem;}
+
+/***************************************************************************/
+
+.helpCall h1 {margin: 0; padding: 0; font-weight: 900; font-size: 2.8rem; letter-spacing: -0.2rem; line-height: 4rem; word-spacing: .5rem; text-align: center;}
+.hcItem{display:flex; justify-content: center; align-items: center;  height: 25rem; color: #fff; padding: 0 1rem;}
+.help{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent), url(../images/abstract.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.call{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url(../images/coffe.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/***************************************************************************/
+
+.post img{width: 100%;}
+.post{ background-color: #f8f8f8; padding: 2rem  1rem 0 1rem;}
+.post h1{color: rgb(17, 17, 17); font-weight: 900; font-size: 2.3rem; letter-spacing: -0.2rem; line-height: 3rem; word-spacing: .5rem;}
+
+.postItem{margin-bottom: 1rem; padding-bottom:3rem ;}
+.postItem a{color: #111414; transition: .3s;}
+.postItem a:hover{color: #eb2f5b;}
+.postItem a h2{margin: 1rem 0 2rem 0; text-transform: uppercase;}
+.postItem date{font-weight: 500; color: #4b4b4b;}
+
+.postItem{border-bottom: 1px solid #eb2f5b;}
+.postItem:last-child{border:0;}
+
+/***************************************************************************/
+
+.links{background-color: #ffffff;}
+.linkContainer .nav1 ol{margin: 0 0 0 1rem;}
+
+.linkContainer .nav1 li, .nav2 li, .nav3 li{font-size: 1rem; margin-bottom: 1.2rem;}
+
+.linkContainer .nav2 ol, .nav3 ol{list-style: none;}
+
+.linkContainer{padding: 1rem 1rem;}
+
+.linkContainer h2{text-transform: uppercase; letter-spacing: -0.1rem; font-size: 1.8rem; color: #eb2f5b; margin-bottom: 1rem;}
+
+.nav2 li a, .nav3 li a{font-weight: 900; font-size: 1.1rem; text-transform: uppercase; color: #111414; transition: .2s;}
+
+.nav2 li a:hover{color:#ffcc00;}
+.nav3 li a:hover{color: #ffcc00;}
+
+.linkContainer p{margin: 1.5rem 0; color: rgb(110, 110, 110); font-weight: 500; padding: 0 1rem 0 0; box-sizing: border-box; letter-spacing: .1rem; line-height: 1.5rem;}
+
+.linkContainer h1{font-size: 2.3rem; color: #111414;}
+.linkContainer em{text-decoration:underline; text-decoration-color: #eb2f5b; text-decoration-style:double;}
+
+/***************************************************************************/
+footer{background-color: #0f0f0f}
+.footerItem{color: #afafaf; padding: 2rem 1rem;}
+.footerItem span{display: block;}
+.footerItem svg{width: 150px;}
+.footerItem h2{color:#ffcc00; text-transform: uppercase; margin-bottom: 1.2rem;}
+.footerItem h4{color: #fff; font-weight: 800; margin-bottom: .2rem;}
+.footerItem p{ color: rgb(187, 187, 187); font-weight: 500; box-sizing: border-box; letter-spacing: .1rem; line-height: 1.5rem; margin-bottom: 2rem;}
+
+.footerItem nav ul{list-style: none;}
+.footerItem li{margin-bottom: .7rem; color: rgb(187, 187, 187); font-weight: 500; box-sizing: border-box; letter-spacing: .1rem; line-height: 1.5rem;}
+.footerItem nav li a{color: #afafaf;}
+.footerItem nav li a:hover{color:#e0768f}
+
+.foo1 a{display:flex; font-weight: 900; font-size: 1.1rem; text-transform: uppercase; color: #ffffff; transition: .2s;}
+
+.foo1 img{width: 100%; max-width: 50px; margin-right: 0.5rem; }
+.foo1 h3{padding: 0; font-size: 1.1rem;}
+.foo1 p{font-size: .8rem; margin-left: 3.4rem; margin-top: -0.1rem; line-height: 1rem;}
+
+.footerItem2{background-color: rgb(09, 09, 09); padding: 2rem 1rem;color: rgb(121, 121, 121); text-align: center;}
+
+/**********************************************/
+
+@media (min-width: 500px){
+    header{display: none;}
+    .mainMain{display: none;}
+    footer{display: none;}
+    body{
+      background-color:#eb2f5b;
+    }
+    .display{
+      display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; padding: 5rem; color: #ffcc00; font-size: 1.5rem;
+    }
+
+  /*html{
+    font-size: 87.5%;*/
+}
